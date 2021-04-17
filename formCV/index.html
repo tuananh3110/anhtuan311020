@@ -112,11 +112,11 @@ input[type=submit]:hover {
         })
         .then(function(data){
             console.log(data)
-            // innerHTML(data)
+            
             var results = document.getElementById('results')
 
             results.innerHTML = `<p>Họ Và Tên:  ${data.title}</p><p>Email là ${data.email}</p><p>Số điện thoại: ${data.phone}</p> <p>Vị Trí: ${data.vitri}</p> <p>Kinh Nghiệm: ${data.kinhnghiem}</p> ` 
-             // results.innerHTML(data)
+             
         })
       } 
       return true;
